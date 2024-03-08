@@ -1,0 +1,29 @@
+{
+  "name": "simple-loading-wave",
+  "version": "0.0.1",
+  "description": "A simple wave pendulum-like loading animation for the browser",
+  "repository": "https://github.com/Standinwol/simple-loading-wave",
+  "keywords": [
+    "loading",
+    "animation",
+    "browser"
+  ],
+  "main": "index.coffee",
+  "scripts": {
+    "dev": "beefy example/index.js --live"
+  },
+  "author": "@orihurah",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  },
+  "devDependencies": {
+  },
+  "directories": {
+    "example": "example"
+  }
+}
